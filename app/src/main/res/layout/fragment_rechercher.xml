@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RechercherFragment">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajout d'une annonce"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="293dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:hint="Titre"
+            android:inputType="textPersonName" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textArea_information"
+            android:layout_width="290dp"
+            android:layout_height="101dp"
+            android:gravity="top|left"
+            android:hint="Saisir la description ici"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!--<Spinner
+            android:id="@+id/spinner"
+            android:layout_width="287dp"
+            android:layout_height="57dp"
+            android:entries="@array/matières"
+            android:spinnerMode="dropdown" />-->
+
+        <Button
+            android:id="@+id/btncreerseance"
+            android:layout_width="297dp"
+            android:layout_height="57dp"
+            android:text="Publier" />
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

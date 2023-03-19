@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="290dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="150dp">
+
+                <ImageView
+                    android:id="@+id/imageVewProfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/person_icon"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnUpload"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="Changer de photo" />
+
+            <!--<TextView
+                android:id="@+id/profil_fragment_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil Utilisateur"
+                android:textSize="26dp"
+                android:layout_gravity="center"/>-->
+            <TextView
+                android:id="@+id/NamePF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="Mark, 18"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescPF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="Looking for a math tutor"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center">
+
+                <RatingBar
+                    android:id="@+id/ratingBarPF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6"/>
+
+                <TextView
+                    android:id="@+id/NotePF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:text="Mark, 18"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

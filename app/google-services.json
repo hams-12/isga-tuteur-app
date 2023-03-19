@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "213449321704",
+    "project_id": "isga-tuteur",
+    "storage_bucket": "isga-tuteur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213449321704:android:3121a18db7e4049b396d5d",
+        "android_client_info": {
+          "package_name": "com.example.isgatuteur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213449321704-5hcd0hpjvqebje199k06hbmie1osdg0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.isgatuteur",
+            "certificate_hash": "32fdda76c2544164443f452bb571f4cd8cde4503"
+          }
+        },
+        {
+          "client_id": "213449321704-fmte4apnqr658v77ufn8aobi9b2hsjfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMTmV2BOGsta6ftc627nzDOYRGGJYyebs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213449321704-fmte4apnqr658v77ufn8aobi9b2hsjfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

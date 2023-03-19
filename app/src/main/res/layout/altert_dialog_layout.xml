@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@drawable/alert_dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/imageViewCancel"
+            android:background="@drawable/ic_baseline_cancel_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewAlertDialogTitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information !"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/textViewAlertDialogMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message de l'information"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+            <!--<Button
+                android:id="@+id/btnAlertDialogOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="150dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/isga_logo_rouge_et_gris"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Accueil"
+        android:id="@+id/homeEtudiant"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Profil"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+    <item android:title="Ajouter"
+        android:id="@+id/publier"
+        android:icon="@drawable/ic_baseline_add_circle_24"/>
+    <!--<item android:title="Rechercher"
+        android:id="@+id/recherher"
+        android:icon="@drawable/ic_baseline_search_24"/>-->
+    <item android:title="Séances"
+        android:id="@+id/seancesEtudiant"
+        android:icon="@drawable/ic_baseline_schedule_24"/>
+</menu>
